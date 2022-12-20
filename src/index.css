@@ -97,8 +97,10 @@ main {
 }
 
 .meme--image {
-  width: 500px;
-  height: 400px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  max-height:200px;
   border-radius: 3px;
   display: block;
   margin-left: auto;
